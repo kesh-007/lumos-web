@@ -36,7 +36,7 @@ function App() {
 
       </div>
 
-      <div className=" bg-black min-h-screen text-white px-[2rem]">
+      <div className="p-5 lg:p-20 bg-black text-white overflow-hidden">
 
         <p className='text-6xl p-[2rem]'>EVENTS</p>
         <EventCard data={events} />
