@@ -20,12 +20,6 @@ export const events =[
         Premium:false
     },
     {
-        event_name:"FLY HIGH - A VOLLEYBALL SHOWDOWN",
-        event_decp: "An anime-themed volleyball event with the popular volleyball anime,Haikyuu as its theme! This volleyball event is for volleyball fans and anime enthusiasts alike. Electrifying fusion of sports and anime - an awe-inspiring spectacle featuring volleyball action.",
-        image:"https://i.pinimg.com/564x/fb/da/a5/fbdaa5f6f8fd3a9773dcef5c6711a43b.jpg",
-        Premium:true
-    },
-    {
         event_name:"Obstacle Course",
         event_decp: "An electrifying obstacle course inspired by Takeshi’s Castle, filled with thrilling challenges. An unforgettable fun, delighting participants with an exhilarating adventure. In this test for agility, balance and determination, participants ought to have an exciting time with friends!",
         image:"https://i.pinimg.com/564x/fb/da/a5/fbdaa5f6f8fd3a9773dcef5c6711a43b.jpg",
