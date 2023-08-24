@@ -12,24 +12,26 @@ import Workshop from './Components/Workshop';
 import Registration from './Components/registration';
 import CompetitionCard from './Components/CompetitionCard';
 
+
 function App() {
   
   return (
+    
     <div className=" bg-black min-h-screen text-white px-[2rem]">
-      
+
       <p className='text-6xl p-[2rem]'>EVENTS</p>
       <EventCard data = {events}/>
 
-      <p className='text-6xl p-[2rem]'>Exhibits</p>
+      <p className='text-6xl p-[2rem]'>EXHIBITS</p>
       <ExhibitCard exhibits={exhibits}/>
       
       <p className='text-6xl p-[2rem]'>WORKSHOPS</p>
        <Workshop workshop={workshop}/> 
 
-       <p className='text-6xl p-[2rem]'>Registration</p>
+       <p className='text-6xl p-[2rem]'>REGISTRATION</p>
         <Registration registrationData={registration}/>
 
-        <p className='text-6xl p-[2rem]'>competition</p>
+        <p className='text-6xl p-[2rem]'>COMPETITION</p>
         <CompetitionCard competitions={competitions}/>
 
 
