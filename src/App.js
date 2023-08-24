@@ -11,7 +11,6 @@ import ExhibitCard from './Components/ExhibitCard';
 import Workshop from './Components/Workshop';
 import Registration from './Components/registration';
 import CompetitionCard from './Components/CompetitionCard';
-
 import video from './video.mp4';
 
 function App() {
@@ -34,25 +33,22 @@ function App() {
         </div>
 
       </div>
+    <div className=" bg-black min-h-screen text-white px-[2rem]">
 
-      <div className=" bg-black min-h-screen text-white px-[2rem]">
+      <p className='text-6xl p-[2rem]'>EVENTS</p>
+      <EventCard data = {events}/>
 
-        <p className='text-6xl p-[2rem]'>EVENTS</p>
-        <EventCard data={events} />
+      <p className='text-6xl p-[2rem]'>EXHIBITS</p>
+      <ExhibitCard exhibits={exhibits}/>
+      
+      <p className='text-6xl p-[2rem]'>WORKSHOPS</p>
+       <Workshop workshop={workshop}/> 
 
-        <p className='text-6xl p-[2rem]'>Exhibits</p>
-        <ExhibitCard exhibits={exhibits} />
+       <p className='text-6xl p-[2rem]'>REGISTRATION</p>
+        <Registration registrationData={registration}/>
 
-        <p className='text-6xl p-[2rem]'>WORKSHOPS</p>
-        <Workshop workshop={workshop} />
-
-        <p className='text-6xl p-[2rem]'>Registration</p>
-        <Registration registrationData={registration} />
-
-        <p className='text-6xl p-[2rem]'>competition</p>
-        <CompetitionCard competitions={competitions} />
-
-
+        <p className='text-6xl p-[2rem]'>COMPETITION</p>
+        <CompetitionCard competitions={competitions}/>
       </div>
     </div>
   );
