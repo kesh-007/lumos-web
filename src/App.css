@@ -4,8 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: NukuNuku;
+  src: url("./Fonts/nuku.ttf");
+}
+
+
 div {
-    font-family: 'Quicksand', sans-serif; 
+    font-family: NukuNuku
   }
 
 html::-webkit-scrollbar{
