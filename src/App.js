@@ -17,19 +17,19 @@ function App() {
   return (
     <div className=" bg-black min-h-screen text-white px-[2rem]">
       
-      <p className='text-2xl p-[2rem]'>EVENTS</p>
+      <p className='text-6xl p-[2rem]'>EVENTS</p>
       <EventCard data = {events}/>
 
-      <p className='text-2xl p-[2rem]'>Exhibits</p>
+      <p className='text-6xl p-[2rem]'>Exhibits</p>
       <ExhibitCard exhibits={exhibits}/>
       
-      <p className='text-2xl p-[2rem]'>WORKSHOPS</p>
+      <p className='text-6xl p-[2rem]'>WORKSHOPS</p>
        <Workshop workshop={workshop}/> 
 
-       <p className='text-2xl p-[2rem]'>Registration</p>
+       <p className='text-6xl p-[2rem]'>Registration</p>
         <Registration registrationData={registration}/>
 
-        <p className='text-2xl p-[2rem]'>competition</p>
+        <p className='text-6xl p-[2rem]'>competition</p>
         <CompetitionCard competitions={competitions}/>
 
 
