@@ -125,7 +125,7 @@ const style = {
     "left": "0%",
     "right":"0",
     "top": "5%",
-    "height": "70vh",
+    "height": "100vh",
     "overflow": "hidden",
     "textAlign": "center",
     "display": "flex",
@@ -143,7 +143,7 @@ const style = {
     "objectFit": "cover",
     "height": "100%",
     "width": "100%",
-    "filter": "brightness(40%) contrast(80%)"
+    "filter": "brightness(70%) contrast(100%)"
   },
   "": {
     "boxSizing": "border-box"
