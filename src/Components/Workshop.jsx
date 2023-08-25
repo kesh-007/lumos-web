@@ -1,4 +1,6 @@
 import React,{useState} from 'react';
+import '../App.css';
+
 
 const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft,Premium }) => {
 
@@ -19,7 +21,7 @@ const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft,Premium }) => {
             }
 
           </div>
-          <div className='p-6  max-md:text-sm max-sm:truncate text-lg'>
+          <div className='poppins-text p-6  max-md:text-sm max-sm:truncate text-lg'>
           <p>{descp}</p>
 
           </div>
