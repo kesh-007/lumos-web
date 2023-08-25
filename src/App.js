@@ -115,7 +115,7 @@ const style = {
   },
   "video_wrapper": {
     "position": "relative",
-    "width": "96%",
+    "width": "100%",
     "left": "2%",
     "top": "5%",
     "height": "70vh",
