@@ -15,6 +15,9 @@
     font-family: Rage;
     src: url("./Fonts/RAGE.ttf");
 }
+.poppins-text {
+  font-family : "Poppins";
+ }
 
 
 @tailwind base;
