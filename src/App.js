@@ -75,8 +75,8 @@ const style = {
     "color": "white",
     "fontSize": "48px",
     "margin": "auto",
-    "marginLeft": "40%"
-    "text-align" : "center";
+    "marginLeft": "40%",
+    "text-align" : "center"
   },
   "nuku": {
     "fontFamily": "NukuNuku",
