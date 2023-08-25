@@ -71,12 +71,13 @@ const style = {
     "width": "100%"
   },
   "lumos": {
-    "fontFamily": "RomanWood, serif",
+   "fontFamily": "RomanWood, serif",
     "color": "white",
     "fontSize": "48px",
+    "textAlign": "center",
+    "width": "100vw",
+    "left": "0%",
     "margin": "auto",
-    "marginLeft": "40%",
-    "text-align" : "center"
   },
   "nuku": {
     "fontFamily": "NukuNuku",
@@ -94,7 +95,10 @@ const style = {
     "fontFamily": "'Rouge Script'",
     "color": "white",
     "fontSize": "24px",
-    "marginLeft": "60%"
+    "textAlign" : "center",
+    "width": "100vw",
+    "left": "0%",
+    "margin": "auto",
   },
   "text": {
     "fontFamily": "'Comfortaa', cursive",
@@ -114,9 +118,12 @@ const style = {
     "color": "#f45"
   },
   "video_wrapper": {
-    "position": "relative",
-    "width": "100%",
-    "left": "2%",
+   "position": "relative",
+    "margin" : "0",
+    "padding" : "0",
+    "width": "100vw",
+    "left": "0%",
+    "right":"0",
     "top": "5%",
     "height": "70vh",
     "overflow": "hidden",
