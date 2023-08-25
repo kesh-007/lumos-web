@@ -17,7 +17,7 @@ export const registration = [
       imageurl: 'https://static.vecteezy.com/system/resources/previews/023/856/960/large_2x/summer-seasonal-anime-style-background-landscape-mountain-lake-and-relax-vibes-anime-background-or-wallpaper-generative-ai-free-photo.jpg',
       day: 'Both Days - Combo',
       basicplan: '--',
-      premiumplan: 'Rs.120',
+      premiumplan: 'Rs.149',
       url:'https://forms.gle/KR61iMByc5EGCxAZA'
     },
    
