@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import '../App.css';
+
 
 const ExhibitCard = ({ exhibits }) => {
 
@@ -13,7 +15,7 @@ const ExhibitCard = ({ exhibits }) => {
             <div className='bg-[#FF0000] text-4xl p-4 font-bold'>
               <p className=''>{exhibit.name}</p>
             </div>
-            <div className='bg-[#2A2929] text-white p-3 '>
+            <div className='poppins-text bg-[#2A2929] text-white p-3 '>
               <p>{exhibit.descp}</p>
             </div>
           </div>
