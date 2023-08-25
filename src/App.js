@@ -73,7 +73,7 @@ const style = {
   "lumos": {
    "fontFamily": "RomanWood, serif",
     "color": "white",
-    "fontSize": "48px",
+    "fontSize": "65px",
     "textAlign": "center",
     "width": "100vw",
     "left": "0%",
@@ -82,7 +82,7 @@ const style = {
   "nuku": {
     "fontFamily": "NukuNuku",
     "color": "white",
-    "fontSize": "70px",
+    "fontSize": "80px",
     "margin": "0"
   },
   "rage": {
@@ -103,7 +103,7 @@ const style = {
   "text": {
     "fontFamily": "'Comfortaa', cursive",
     "color": "#bbb",
-    "fontSize": "20px",
+    "fontSize": "30px",
     "marginLeft": "0%"
   },
   "title": {
