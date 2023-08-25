@@ -24,7 +24,7 @@ function EventCard({ data }) {
             <h1 className='text-3xl mb-[.5rem]'>{datum.event_name}</h1>
             {
               datum.Premium &&
-              <div className='text-white text-sm h-[1.2rem] rounded-md px-2 font-bold bg-red-500 mt-2'>Premium</div>
+              <div className='text-white text-sm h-[1.2rem] rounded-md px-2 font-bold bg-[#FF0000] mt-2'>Premium</div>
             }
             </div>
             <div className='poppins-text text-[0.74rem] w-[17rem]'>{datum.event_decp}</div>
