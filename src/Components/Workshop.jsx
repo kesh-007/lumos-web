@@ -11,7 +11,7 @@ const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft, Premium }) => {
       className={` w-full h-screen max-md:h-auto flex rounded-lg mb-[1rem] bg-[#2A2A2A]  max-md:flex-col
       ${isImageOnLeft ? 'flex-row' : 'flex-row-reverse'}`}>
       <div className='w-[70%] max-md:w-full'>
-        <img src={imageurl} alt='workshop poster' className='h-full w-full object-cover' loading='lazy' />
+        <img src={imageurl} alt='workshop poster' className='h-full w-full' loading='lazy' />
       </div>
       <div className='w-full '>
         <div className='bg-white text-black font-bold text-3xl p-4 flex justify-between'>
