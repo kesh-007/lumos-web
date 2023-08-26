@@ -25,7 +25,7 @@ export const events = [
     {
         event_name: "Obstacle Course",
         event_decp: "An electrifying obstacle course inspired by Takeshi’s Castle, filled with thrilling challenges. An unforgettable fun, delighting participants with an exhilarating adventure. In this test for agility, balance and determination, participants ought to have an exciting time with friends!",
-        image: process.env.PUBLIC_URL + "/img/8.png",
+        image: process.env.PUBLIC_URL + "/img/obstaclecourse.png",
         Premium: false,
         register: false,
     },
@@ -37,8 +37,8 @@ export const events = [
         register: false,
     },
     {
-        event_name: "OTAKU ONSTAGE! A COSPLAY CARNIVAL - COSPLAY SHOWCASE EVENT",
-        event_decp: "Scores and points? Nah, we're skipping that at “Otaku Onstage!”. Dress up as your favorite character, get on stage and bring that character to life! Picture this: a room buzzing with excitement, characters coming to life, and the crowd cheering for their favorites. And guess what? Everyone who participates gets something that’s worth their while – yep, freebies that'll have you grinning from ear to ear! It's all about leaving a mark, stealing the show, and turning heads in our quirky cosplay extravaganza. So, get ready to rock that costume and show us what you've got!",
+        event_name: "OTAKU ONSTAGE! A COSPLAY CARNIVAL",
+        event_decp: "Cosplaying has evolved into an art form, enabling individuals to embody their beloved characters. This event invites all to don the attire of any Japanese character, showcasing their craftsmanship and indulging in the immersive experience. With prominent Indian cosplayers joining in, it's a platform to celebrate creativity and shared admiration for Japanese culture.",
         image: process.env.PUBLIC_URL + "/img/cosplayshowcase_web.png",
         Premium: false,
         register: true,
@@ -52,7 +52,7 @@ export const events = [
 
     {
         event_name: "O-TALKU ZONE! - A TALK AND INTERACTION AREA",
-        event_decp: "A designated area that would be active for the whole duration of the event. You can talk, interact, make friends with others from various colleges, and discuss your common interests in Japan, Anime, and Manga alike. You could also use it as an opportunity to share books, stories, and artworks with fellow enthusiasts and exchange knowledge between them. This will be a great opportunity for the participants to find like-minded people and get acquainted with them.",
+        event_decp: "Immerse yourself in a vibrant world of Japan, Anime, and Manga as students from different colleges unite, forging friendships, and celebrating their shared passions in a designated active zone throughout the event. Participants could also use it as an opportunity to share books, stories, and artworks with fellow enthusiasts and exchange knowledge between them.",
         image: process.env.PUBLIC_URL + "/img/2.png",
         Premium: false,
         register: false,
