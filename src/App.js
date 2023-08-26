@@ -32,6 +32,8 @@ function App() {
           <h2 style={style.rage}>F e s t i v a l &nbsp; o f &nbsp; l i g h t s</h2>
           <h2 style={style.text}>An exclusive Japanese x Anime event</h2>
           <p style={style.text} id="demo">8th and 9th September</p>
+          <br></br>
+          <a href ="#reg"><button className='bg-[#FF0000] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded justify-center'>Register Now</button></a>
         </div>
 
       </div>
