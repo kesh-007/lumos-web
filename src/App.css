@@ -27,10 +27,16 @@
 div {
     font-family: NukuNuku
   }
-/* 
+
+  /* 
 html::-webkit-scrollbar{
   display: none;
 } */
+
+.poppins-text {
+  font-family: 'Poppins';
+}
+
 html,body {
   overflow-x: none;
 }

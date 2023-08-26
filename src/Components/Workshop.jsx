@@ -21,7 +21,7 @@ const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft, Premium }) => {
           }
 
         </div>
-        <div className=' poppins-text p-6 tracking-wide  max-md:text-sm max-sm:text-sm text-lg'>
+        <div className='poppins-text p-6 tracking-wide  max-md:text-sm max-sm:text-sm text-lg'>
           <p>{descp}</p>
           {
             (name === 'COSPLAY WORKSHOP') &&
