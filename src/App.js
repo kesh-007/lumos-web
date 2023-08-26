@@ -42,16 +42,15 @@ function App() {
 
         <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>EVENTS</p>
         <EventCard data={events} />
-
+        <br></br>
         <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exhibits</p>
         <ExhibitCard exhibits={exhibits} />
-
+        <br></br>
         <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>WORKSHOPS</p>
         <Workshop workshop={workshop} />
-
+        <br></br>
         <p id="reg" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Registration</p>
         <Registration registrationData={registration} />
-
         <p id="competitions" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exclusive Participation</p>
         <CompetitionCard competitions={competitions} />
 
