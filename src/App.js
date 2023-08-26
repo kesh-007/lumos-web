@@ -33,7 +33,7 @@ function App() {
           <h2 style={style.text}>An exclusive Japanese x Anime event</h2>
           <p style={style.text} id="demo">8th and 9th September</p>
           <br></br>
-          <a href ="#reg"><button className='bg-[#FF0000] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded justify-center'>Register Now</button></a>
+          <a href="#reg"><button className='bg-[#FF0000] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded justify-center'>Register Now</button></a>
         </div>
 
       </div>
@@ -49,10 +49,10 @@ function App() {
         <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>WORKSHOPS</p>
         <Workshop workshop={workshop} />
 
-        <p id = "reg" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Registration</p>
+        <p id="reg" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Registration</p>
         <Registration registrationData={registration} />
 
-        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>competition</p>
+        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Separate Registration</p>
         <CompetitionCard competitions={competitions} />
 
 
@@ -73,7 +73,7 @@ const style = {
     "width": "100%"
   },
   "lumos": {
-   "fontFamily": "RomanWood, serif",
+    "fontFamily": "RomanWood, serif",
     "color": "white",
     "fontSize": "65px",
     "textAlign": "center",
@@ -97,7 +97,7 @@ const style = {
     "fontFamily": "'Rouge Script'",
     "color": "white",
     "fontSize": "24px",
-    "textAlign" : "center",
+    "textAlign": "center",
     "width": "100vw",
     "left": "0%",
     "margin": "auto",
@@ -120,12 +120,12 @@ const style = {
     "color": "#f45"
   },
   "video_wrapper": {
-   "position": "relative",
-    "margin" : "0",
-    "padding" : "0",
+    "position": "relative",
+    "margin": "0",
+    "padding": "0",
     "width": "100vw",
     "left": "0%",
-    "right":"0",
+    "right": "0",
     "top": "5%",
     "height": "100vh",
     "overflow": "hidden",
