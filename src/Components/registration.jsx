@@ -27,7 +27,7 @@ const Registration = ({registrationData}) => {
             </div>
             </div>
             <div className='flex justify-center mt-4 mb-4'>
-            <a href={`${item.url}`} className='text-center px-2 bg-red-500 rounded-full font-bold text-white '>
+            <a href={`${item.url}`} className='text-center px-2 bg-red-500 rounded-full  text-white '>
                 Register
             </a>
             </div>

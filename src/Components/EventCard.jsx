@@ -4,9 +4,9 @@ function EventCard({ data }) {
 
 
   return (
-    <div className=' grid grid-cols-3 gap-[3rem] text-white max-md:grid-cols-1 max-md:align-center'>
+    <div className=' grid grid-cols-3 gap-[3rem] text-white max-md:grid-cols-1 '>
       {data.map((datum, index) => (
-        <div data-aos="zoom-in" className={`h-auto mb-[3rem] rounded-full ${index === 9 ? ' ' : ''}`}>
+        <div data-aos="zoom-in" className={`h-auto max-md:px-[2rem] mb-[3rem] rounded-full ${index === 9 ? ' ' : ''}`}>
           <div>
           <img src={datum.image} className='w-[18.5rem] h-[70%]' alt={datum.event_name} />
           <div className='bg-[#1F1F1F] w-[18.5rem]'>
