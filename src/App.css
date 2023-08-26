@@ -31,10 +31,10 @@ div {
     font-family: NukuNuku
   }
 
-  /* 
+  
 html::-webkit-scrollbar{
   display: none;
-} */
+}
 
 html,body {
   overflow-x: none;
