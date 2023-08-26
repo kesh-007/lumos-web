@@ -12,8 +12,9 @@ import Workshop from './Components/Workshop';
 import Registration from './Components/registration';
 import CompetitionCard from './Components/CompetitionCard';
 
-import video from './HNM edit.mp4';
+import video from './video.mp4';
 import background from './background.jpeg';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -40,19 +41,21 @@ function App() {
 
       <div className="p-5 lg:p-20 bg-black text-white overflow-hidden">
 
-        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>EVENTS</p>
+        <p id="events" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>EVENTS</p>
         <EventCard data={events} />
         <br></br>
-        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exhibits</p>
+        <p id="exhibits" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exhibits</p>
         <ExhibitCard exhibits={exhibits} />
         <br></br>
-        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>WORKSHOPS</p>
+        <p id="workshops" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>WORKSHOPS</p>
         <Workshop workshop={workshop} />
         <br></br>
         <p id="reg" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Registration</p>
         <Registration registrationData={registration} />
         <p id="competitions" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exclusive Participation</p>
         <CompetitionCard competitions={competitions} />
+        <br></br>
+        <Footer />
 
 
       </div>
