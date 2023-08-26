@@ -23,9 +23,9 @@ function EventCard({ data }) {
               <div className='poppins-text text-[0.74rem] w-[100%] text-justify'>{datum.event_decp}</div>
               {
                 datum.register &&
-                <div>
+                <div className='content-center m-auto items-center'>
                   <br></br>
-                  <a href="#competitions" className='poppins-text bg-transparent hover:bg-red-700 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-700 hover:border-transparent rounded-lg text-lg'>
+                  <a href="#competitions" className='poppins-text bg-transparent hover:bg-red-700 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-700 hover:border-transparent rounded-lg text-md content-center'>
                     Register
                   </a>
                 </div>

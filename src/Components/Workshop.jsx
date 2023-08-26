@@ -17,7 +17,7 @@ const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft, Premium }) => {
         <div className='bg-white text-black font-bold text-3xl p-4 flex justify-between'>
           <p>{name}</p>
           {
-            Premium && <div className='text-white text-sm h-[2rem] text-center rounded-md px-3 font-normal bg-[#FF0000]'>Premium</div>
+            Premium && <div className='text-white text-sm h-[2rem] text-center rounded-md px-3 font-normal bg-[#FF0000] items-center flex'>Premium</div>
           }
 
         </div>

@@ -10,7 +10,7 @@ export const exhibits = [
         imageurl: process.env.PUBLIC_URL + "/img/games.png",
     },
     {
-        name: "ACTION FIGURINES (JAPANESE DOLLS AND CHARACTERS)",
+        name: "ACTION FIGURINES - JAPANESE DOLLS AND CHARACTERS",
         descp: "Embark on a captivating journey through the Action-Figurines exhibit—a celebration of Japanese artistry and intricate traditional dolls. Marvel at beloved anime, manga, and folklore characters brought to life in stunning detail. Witness the interplay of color and emotion, as these figurines weave tales of valor and ancient traditions. Immerse yourself in a world of imagination and cultural appreciation, connecting with Japan's artistic soul—a must-see experience for artists, art lovers, and anime fans alike.",
         imageurl: process.env.PUBLIC_URL + "/img/16.png",
     },
@@ -20,7 +20,7 @@ export const exhibits = [
         imageurl: process.env.PUBLIC_URL + "/img/18.png",
     },
     {
-        name: "Cultural Exhibit (Traditions of Japan )",
+        name: "Cultural Exhibit - Traditions of Japan",
         descp: "From Japanese festival games and customs to food habits and clothing. This exhibit would let students learn in-depth about Japanese culture, their habits, clothing, recreation, etc. as they come into close contact with Japan’s culture. It might include kanji drawing, kimono wearing, chopstick tryout, tea culture, fortune picking etc.        ",
         imageurl: process.env.PUBLIC_URL + "/img/17.png",
     },
