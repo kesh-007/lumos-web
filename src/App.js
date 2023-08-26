@@ -49,7 +49,7 @@ function App() {
         <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>WORKSHOPS</p>
         <Workshop workshop={workshop} />
 
-        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Registration</p>
+        <p id = "reg" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Registration</p>
         <Registration registrationData={registration} />
 
         <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>competition</p>
