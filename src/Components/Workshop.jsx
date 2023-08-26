@@ -17,11 +17,11 @@ const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft,Premium }) => {
           <div className='bg-white text-black font-bold text-3xl p-4 flex justify-between'>
             <p>{name}</p>
             {
-              Premium && <div className='text-white text-sm py-[.36rem] text-center rounded-md px-3 font-bold bg-[#FF0000]'>Premium</div>
+              Premium && <div className='text-white text-sm h-[2rem] text-center rounded-md px-3 font-normal bg-[#FF0000]'>Premium</div>
             }
 
           </div>
-          <div className='poppins-text p-6  max-md:text-sm max-sm:truncate text-lg'>
+          <div className='poppins-text p-6  max-md:text-sm max-sm:text-sm text-lg'>
           <p>{descp}</p>
 
           </div>
