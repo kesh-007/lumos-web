@@ -9,7 +9,7 @@ const ExhibitCard = ({ exhibits }) => {
       {exhibits.map((exhibit) => (
         <div className='flex mx-1x mb-3 bg-[#2A2929] max-md:flex-col justify-center h-[100%]' key={exhibit.id}>
           <div className='md:w-full max-md:w-full'>
-            <img src={exhibit.imageurl} alt='exhibits' className='w-full' loading='lazy' />
+            <img src={exhibit.imageurl} alt='exhibits' className='w-full xl:object-cover xl:h-full' loading='lazy' />
           </div>
           <div className='w-full h-fit'>
             <div className='bg-[#FF0000] text-4xl p-4 font-bold'>
