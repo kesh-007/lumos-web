@@ -13,7 +13,9 @@ const CompetitionCard = ({competitions}) => {
               <div className='flex bg-white px-[2rem] gap-5 py-[2rem] max-md:flex-col'>
                 <div className='w-1/3 max-md:h-full max-md:w-full'>
                   <img src={key.imageurl} alt='image' 
-                  className='max-md:h-full max-md:w-full'/>
+                  className='max-md:h-full max-md:w-full'
+                  loading='lazy'
+                  />
                 </div>
                 <div className=' w-full text-black'>
                   {

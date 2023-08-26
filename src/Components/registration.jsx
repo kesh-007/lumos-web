@@ -14,7 +14,7 @@ const Registration = ({registrationData}) => {
                     </div>
 
 <div className='text-black'>
-            <img className="w-full mb-2 p-3" src={item.imageurl} alt="Image" />
+            <img className="w-full mb-2 p-3" src={item.imageurl} alt="Image" loading='lazy' />
             <p className="text-center mb-2 font-semibold text-xl">{item.day}</p>
             <div className='flex justify-between px-4'>
             <p className="text-center mb-2 font-bold">Basic Plan</p> 
