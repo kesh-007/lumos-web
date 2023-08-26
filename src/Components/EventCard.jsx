@@ -18,6 +18,12 @@ function EventCard({ data }) {
                 }
               </div>
               <div className='poppins-text text-[0.74rem] w-[100%]' style={{ height: "60%" }}>{datum.event_decp}</div>
+              {
+                datum.register &&
+                <a href="#competitions" className='text-center px-2 bg-red-500 rounded-full text-white '>
+                  Register
+                </a>
+              }
             </div>
           </div>
         </div>
