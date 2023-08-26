@@ -1,20 +1,10 @@
 import React from 'react';
-import '../App.css';
 
 function EventCard({ data }) {
-  console.log("datdsa", data);
 
-  const descriptionStyle = {
-    maxHeight: '6em', // Adjust the height as needed
-    overflow: 'hidden',
-    textOverflow: 'ellipsis',
-    display: '-webkit-box',
-    WebkitLineClamp: 3, // Number of lines to show before truncating
-    WebkitBoxOrient: 'vertical',
-  };
 
   return (
-    <div className=' grid grid-cols-3 gap-[3rem] text-white max-md:grid-cols-1'>
+    <div className=' grid grid-cols-3 gap-[3rem] text-white max-md:grid-cols-1 max-md:align-center'>
       {data.map((datum, index) => (
         <div data-aos="zoom-in" className={`h-auto mb-[3rem] rounded-full ${index === 9 ? ' ' : ''}`}>
           <div>
@@ -27,7 +17,7 @@ function EventCard({ data }) {
               <div className='text-white text-sm h-[1.2rem] rounded-md px-2 font-bold bg-[#FF0000] mt-2'>Premium</div>
             }
             </div>
-            <div className='poppins-text text-[0.74rem] w-[17rem]'>{datum.event_decp}</div>
+            <div className='poppins-text text-[0.74rem]  w-[17rem]'>{datum.event_decp}</div>
             </div>
           </div>
         </div>
