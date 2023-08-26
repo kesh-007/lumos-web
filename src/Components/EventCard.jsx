@@ -11,7 +11,7 @@ function EventCard({ data }) {
         <div data-aos="zoom-in" className={`h-auto md:h-[100%] xl:h-[90%] w-auto mb-[3rem] rounded-full ${index === 9 ? ' ' : ''}`}>
           <div style={{ height: "60%" }}>
             <img src={datum.image} className='w-[100%]' alt={datum.event_name} loading="lazy" />
-            <div className='bg-[#1F1F1F] w-[100%] h-auto md:h-[99%] lg:h-[90%] xl:h-[85%]' style={{ padding: "16px" }}>
+            <div className='bg-[#1F1F1F] w-[100%] h-auto md:h-[99%] 2md:h-[120%] 2sm:h-[99%] lg:h-[90%] xl:h-[90%] 2lg:h-[85%] 3xl:h-[80%]' style={{ padding: "16px" }}>
               <br></br>
               <div className='flex justify-between'>
                 <h1 className='text-3xl mb-[.5rem]'>{datum.event_name}</h1>
