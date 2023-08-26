@@ -20,8 +20,8 @@ const CompetitionCard = ({competitions}) => {
                     key.competition.map((index)=>(
                       <div className='flex flex-col gap-3'>
                         <div className='flex justify-between'>
-                      <p className='font-bold'>{index.val}</p>
-                      <a href={`${index.url}`} className='  bg-red-500 text-white px-2 rounded-xl font-bold'>
+                      <p className='font-semibold'>{index.val}</p>
+                      <a href={`${index.url}`} className='  bg-red-500 text-white px-2 rounded-xl '>
                         REGISTER
                       </a>
                       </div>

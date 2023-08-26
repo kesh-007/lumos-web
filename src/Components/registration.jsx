@@ -15,7 +15,7 @@ const Registration = ({registrationData}) => {
 
 <div className='text-black'>
             <img className="w-full mb-2 p-3" src={item.imageurl} alt="Image" />
-            <p className="text-center mb-2 font-bold text-xl">{item.day}</p>
+            <p className="text-center mb-2 font-semibold text-xl">{item.day}</p>
             <div className='flex justify-between px-4'>
             <p className="text-center mb-2 font-bold">Basic Plan</p> 
             <span className='font-normal'>${item.basicplan}</span>
