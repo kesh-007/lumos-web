@@ -27,7 +27,7 @@ const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft, Premium }) => {
             (name === 'COSPLAY WORKSHOP') &&
             <div>
               <br />
-              <a href="#competitions" className='text-center px-2 bg-red-500 rounded-full text-white '>
+              <a href="#competitions" className='poppins-text bg-transparent hover:bg-red-700 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-700 hover:border-transparent rounded-lg text-lg'>
                 Register
               </a>
             </div>
