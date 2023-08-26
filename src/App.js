@@ -52,7 +52,7 @@ function App() {
         <p id="reg" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Registration</p>
         <Registration registrationData={registration} />
 
-        <p id="competitions" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Separate Registration</p>
+        <p id="competitions" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exclusive Participation</p>
         <CompetitionCard competitions={competitions} />
 
 
