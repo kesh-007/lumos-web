@@ -8,12 +8,12 @@ const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft, Premium }) => {
   return (
     <div
       data-aos="zoom-out "
-      className={` w-full h-screen max-md:h-auto flex rounded-lg mb-[1rem] bg-[#2A2A2A]  max-md:flex-col
+      className={` w-full h-max max-md:h-auto flex rounded-lg mb-[1rem] bg-[#2A2A2A]  max-md:flex-col
       ${isImageOnLeft ? 'flex-row' : 'flex-row-reverse'}`}>
       <div className='w-[70%] max-md:w-full'>
-        <img src={imageurl} alt='workshop poster' className='h-full w-full' loading='lazy' />
+        <img src={imageurl} alt='workshop poster' className='w-full' loading='lazy' />
       </div>
-      <div className='w-full '>
+      <div className='w-full h-auto'>
         <div className='bg-white text-black font-bold text-3xl p-4 flex justify-between'>
           <p>{name}</p>
           {
