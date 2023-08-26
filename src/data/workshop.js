@@ -1,6 +1,6 @@
 export const workshop = [
     {
-        imageurl: process.env.PUBLIC_URL + "/img/lang&culture_web.png",
+        imageurl: process.env.PUBLIC_URL + "/img/lcw.jpg",
         name: 'JAPANESE LANGUAGE AND CULTURE WORKSHOP',
         descp: "Embark on a captivating journey into Japanese language and culture. Explore alphabets' similarities, master basic greetings, Japanese customs, traditions, and artistry. From mastering the Japanese alphabet to experiencing the traditions of the Japanese people, you'll delve into the heart of Japan's rich heritage. Unlock the secrets of this enchanting country as you learn its language, delve into its customs, and unleash your creativity through engaging activities. Don't miss this opportunity to embrace Japan in an immersive and unforgettable experience.",
         Premium: true
