@@ -2,14 +2,14 @@ export const events = [
     {
         event_name: "Artist Alley",
         event_decp: "Immerse yourself in the world of Japan, anime, and manga art at this captivating competition-exhibit, where public votes crown the most captivating masterpiece.",
-        image: process.env.PUBLIC_URL + "/img/3.png",
+        image: process.env.PUBLIC_URL + "/img/art-alley.jpg",
         Premium: false,
         register: true,
     },
     {
         event_name: "AKIHABARA NO QUEST: AN ANIME X JAPANESE QUIZ",
         event_decp: "Join the ultimate test of Japan knowledge and passion as you compete with fellow enthusiasts in a brain-teasing quiz about all things Japan and beloved works.",
-        image: process.env.PUBLIC_URL + "/img/6.png",
+        image: process.env.PUBLIC_URL + "/img/anime-quiz.png",
         Premium: false,
         register: false,
     },
@@ -18,7 +18,7 @@ export const events = [
     {
         event_name: "HANETSUKI - A JAPANESE SPORT",
         event_decp: "Hanetsuki, A centuries-old Japanese gem, akin to badminton but sans net. Elegantly wield a hagoita paddle, strike the hane shuttlecock and don’t let it touch the ground! A New Year tradition that has been revered for 1,300 years, cherished by the youth. Get to experience it in all its glory!",
-        image: process.env.PUBLIC_URL + "/img/HW.png",
+        image: process.env.PUBLIC_URL + "/img/hanetsuki_web.png",
         Premium: false,
         register: false,
     },
