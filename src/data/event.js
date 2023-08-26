@@ -39,26 +39,26 @@ export const events = [
     }, {
         event_name: " STROKES OF HNM - A CANVAS PAINTING EVENT",
         event_decp: "This will be a fun bonding activity where participants leave marks of their presence in one large canvas, common and open to all. It will be a full day event where participants can fill the canvas with their friends and fellow participants. The final product will be posted in our social media handles!        ",
-        image: "https://i.pinimg.com/564x/fb/da/a5/fbdaa5f6f8fd3a9773dcef5c6711a43b.jpg",
+        image: process.env.PUBLIC_URL + "/img/canvaspainting_web.png",
         Premium: false
     },
 
     {
         event_name: "O-TALKU ZONE! - A TALK AND INTERACTION AREA",
         event_decp: "A designated area that would be active for the whole duration of the event. You can talk, interact, make friends with others from various colleges, and discuss your common interests in Japan, Anime, and Manga alike. You could also use it as an opportunity to share books, stories, and artworks with fellow enthusiasts and exchange knowledge between them. This will be a great opportunity for the participants to find like-minded people and get acquainted with them.",
-        image: "https://i.pinimg.com/564x/fb/da/a5/fbdaa5f6f8fd3a9773dcef5c6711a43b.jpg",
+        image: process.env.PUBLIC_URL + "/img/2.png",
         Premium: false
     },
     {
         event_name: "Watch Party",
         event_decp: "In the  modern entertainment industry, anime has emerged as a powerful global phenomenon. India, too, has witnessed a surge in anime appreciation, with  anime movies now gracing local theaters. This event’s objective is to celebrate this cultural wave with an anime watch party, where enthusiasts can enjoy iconic movies and episodes on the big screen.",
-        image: "https://i.pinimg.com/564x/fb/da/a5/fbdaa5f6f8fd3a9773dcef5c6711a43b.jpg",
+        image: process.env.PUBLIC_URL + "/img/12.png",
         Premium: true
     },
     {
         event_name: "FLY HIGH - A VOLLEYBALL SHOWDOWN",
         event_decp: "An anime-themed volleyball event with the popular volleyball anime,Haikyuu as its theme! This volleyball event is for volleyball fans and anime enthusiasts alike. Electrifying fusion of sports and anime - an awe-inspiring spectacle featuring volleyball action.",
-        image: "https://i.pinimg.com/564x/fb/da/a5/fbdaa5f6f8fd3a9773dcef5c6711a43b.jpg",
+        image: process.env.PUBLIC_URL + "/img/volleyball_web.png",
         Premium: true
     },
 ]
