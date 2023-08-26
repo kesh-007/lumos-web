@@ -12,7 +12,7 @@ import Workshop from './Components/Workshop';
 import Registration from './Components/registration';
 import CompetitionCard from './Components/CompetitionCard';
 
-import video from './video.mp4';
+import video from './HNM edit.mp4';
 import background from './background.jpeg';
 
 function App() {
