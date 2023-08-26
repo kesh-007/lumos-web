@@ -40,19 +40,19 @@ function App() {
 
       <div className="p-5 lg:p-20 bg-black text-white overflow-hidden">
 
-        <p className='text-6xl max-md:text-center max-md:text-3xl p-[2rem]'>EVENTS</p>
+        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>EVENTS</p>
         <EventCard data={events} />
 
-        <p className='text-6xl max-md:text-center max-md:text-3xl p-[2rem]'>Exhibits</p>
+        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exhibits</p>
         <ExhibitCard exhibits={exhibits} />
 
-        <p className='text-6xl max-md:text-center max-md:text-3xl p-[2rem]'>WORKSHOPS</p>
+        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>WORKSHOPS</p>
         <Workshop workshop={workshop} />
 
-        <p className='text-6xl max-md:text-center max-md:text-3xl p-[2rem]'>Registration</p>
+        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Registration</p>
         <Registration registrationData={registration} />
 
-        <p className='text-6xl max-md:text-center max-md:text-3xl p-[2rem]'>competition</p>
+        <p className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>competition</p>
         <CompetitionCard competitions={competitions} />
 
 
