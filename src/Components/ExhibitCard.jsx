@@ -5,7 +5,7 @@ import '../App.css';
 const ExhibitCard = ({ exhibits }) => {
 
   return (
-    <div className='grid grid-cols-2 gap-5  max-md:flex max-md:flex-col '>
+    <div className='grid grid-cols-1 gap-5  max-md:flex xl:grid-cols-2 max-md:flex-col '>
       {exhibits.map((exhibit) => (
         <div className='flex mx-1x` mb-3 bg-[#2A2929]  max-md:flex-col' key={exhibit.id}>
           <div className='w-[50%] max-md:w-full'>
