@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../App.css';
 
 
-const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft, Premium }) => {
+const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft, Premium, day }) => {
 
 
   return (
@@ -11,7 +11,10 @@ const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft, Premium }) => {
       className={` w-full h-max max-md:h-auto flex rounded-lg mb-[1rem] bg-[#2A2A2A]  max-md:flex-col
       ${isImageOnLeft ? 'flex-row' : 'flex-row-reverse'}`}>
       <div className='w-[70%] max-md:w-full'>
-        <img src={imageurl} alt='workshop poster' className='w-full' loading='lazy' />
+        <div className='h-fit relative'>
+          <img src={imageurl} alt='workshop poster' className='w-full' loading='lazy' />
+          <div className='poppins-text absolute bottom-4 right-8 bg-white text-black rounded-full text-md p-2 backdrop-filter backdrop-blur-lg bg-opacity-30'>Day {day}</div>
+        </div>
       </div>
       <div className='w-full h-auto'>
         <div className='bg-white text-black font-bold text-3xl p-4 flex justify-between'>
