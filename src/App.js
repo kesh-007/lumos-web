@@ -50,7 +50,8 @@ function App() {
         <p id="workshops" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>WORKSHOPS</p>
         <Workshop workshop={workshop} />
         <br></br>
-        <p id="reg" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Registration</p>
+        <p id="reg" className='text-6xl max-md:text-center max-md:text-4xl pl-[2rem] pt-[2rem]'>Registration</p>
+        <div className='poppins-text text-white text-lg p-[2rem] '>All college, school students, CIT students and CIT Alumni are allowed to participate!</div>
         <Registration registrationData={registration} />
         <p id="competitions" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exclusive Participation</p>
         <CompetitionCard competitions={competitions} />

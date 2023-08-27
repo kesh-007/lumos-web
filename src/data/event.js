@@ -5,6 +5,7 @@ export const events = [
         image: process.env.PUBLIC_URL + "/img/art-alley.jpg",
         Premium: false,
         register: true,
+        day: "2",
     },
     {
         event_name: "AKIHABARA NO QUEST: AN ANIME X JAPANESE QUIZ",
@@ -12,22 +13,23 @@ export const events = [
         image: process.env.PUBLIC_URL + "/img/anime-quiz.png",
         Premium: false,
         register: false,
+        day: "1 & 2",
     },
-
-
     {
         event_name: "HANETSUKI - A JAPANESE SPORT",
         event_decp: "Hanetsuki, A centuries-old Japanese gem, akin to badminton but sans net. Elegantly wield a hagoita paddle, strike the hane shuttlecock and don’t let it touch the ground! A New Year tradition that has been revered for 1,300 years, cherished by the youth. Get to experience it in all its glory!",
         image: process.env.PUBLIC_URL + "/img/hanetsuki_web.png",
         Premium: false,
         register: false,
+        day: "1",
     },
     {
         event_name: "Obstacle Course",
-        event_decp: "An electrifying obstacle course inspired by Takeshi’s Castle, filled with thrilling challenges. An unforgettable fun, delighting participants with an exhilarating adventure. In this test for agility, balance and determination, participants ought to have an exciting time with friends!",
+        event_decp: "An electrifying obstacle course inspired by Takeshi's Castle, filled with thrilling challenges. An unforgettable fun, delighting participants with an exhilarating adventure. In this test for agility, balance and determination, participants ought to have an exciting time with friends!",
         image: process.env.PUBLIC_URL + "/img/obstaclecourse.png",
         Premium: false,
         register: false,
+        day: "1 & 2",
     },
     {
         event_name: "NOTES OF NIPPON - A MUSICAL PERFORMANCE ",
@@ -35,6 +37,7 @@ export const events = [
         image: process.env.PUBLIC_URL + "/img/musicalperf_web.png",
         Premium: false,
         register: false,
+        day: "1 & 2",
     },
     {
         event_name: "OTAKU ONSTAGE! A COSPLAY CARNIVAL",
@@ -42,20 +45,23 @@ export const events = [
         image: process.env.PUBLIC_URL + "/img/cosplayshowcase_web.png",
         Premium: false,
         register: true,
-    }, {
-        event_name: " STROKES OF HNM - A CANVAS PAINTING EVENT",
+        day: "2",
+    },
+    {
+        event_name: "STROKES OF HNM - A CANVAS PAINTING EVENT",
         event_decp: "This will be a fun bonding activity where participants leave marks of their presence in one large canvas, common and open to all. It will be a full day event where participants can fill the canvas with their friends and fellow participants. The final product will be posted in our social media handles!        ",
         image: process.env.PUBLIC_URL + "/img/canvaspainting_web.png",
         Premium: false,
         register: false,
+        day: "1 & 2",
     },
-
     {
         event_name: "O-TALKU ZONE! - A TALK AND INTERACTION AREA",
         event_decp: "Immerse yourself in a vibrant world of Japan, Anime, and Manga as students from different colleges unite, forging friendships, and celebrating their shared passions in a designated active zone throughout the event. Participants could also use it as an opportunity to share books, stories, and artworks with fellow enthusiasts and exchange knowledge between them.",
         image: process.env.PUBLIC_URL + "/img/2.png",
         Premium: false,
         register: false,
+        day: "1 & 2",
     },
     {
         event_name: "Watch Party",
@@ -63,6 +69,7 @@ export const events = [
         image: process.env.PUBLIC_URL + "/img/12.png",
         Premium: true,
         register: false,
+        day: "1",
     },
     {
         event_name: "FLY HIGH - A VOLLEYBALL SHOWDOWN",
@@ -70,5 +77,6 @@ export const events = [
         image: process.env.PUBLIC_URL + "/img/volleyball_web.png",
         Premium: true,
         register: true,
+        day: "2",
     },
 ]
