@@ -11,11 +11,13 @@ function Footer() {
     return (
         <div>
             <div className="hidden lg:block z-20">
-                <div className="flex justify-between h-[200px] w-full bg-black ">
+                <div className="flex justify-between h-[300px] w-full bg-black ">
                     <div className="basis-3/4">
                         <a href="https://lumoscit.in"><img src={logo} alt="lumos logo" className="p-5 fill-white w-[25%]" /></a>
-                        <div className="pl-7 text-white poppins-text">Contact: +91 89256 50699 (Ahmed Mustafa)</div>
-                        <p className="pl-7 text-white poppins-text"><a href="mailto:lumos@citchennai.net" className="hover:cursor-pointer"  >Mail: lumos@citchennai.net</a></p>
+                        <div className="pl-7 text-white poppins-text">For further queries:</div>
+                        <div className="pl-7 text-white poppins-text">+91 89256 50699 (Ahmed Mustafa)</div>
+                        <div className="pl-7 text-white poppins-text">+91 89397 59393 (Madhuvarshini)</div>
+                        {/* <p className="pl-7 text-white poppins-text"><a href="mailto:lumos@citchennai.net" className="hover:cursor-pointer"  >Mail: lumos@citchennai.net</a></p> */}
                         <div className="flex justify-between w-2/12 pl-7 mt-3">
                             <a href="https://www.instagram.com/lumos_cit/">
                                 <FontAwesomeIcon
@@ -66,7 +68,10 @@ function Footer() {
                     <a href='#events' className="text-white poppins-text">Events</a>
                     <a href='#exhibits' className="text-white poppins-text">Exhibits</a>
                     <a href='#workshops' className="text-white poppins-text">Workshops</a>
-                    <a href="mailto:lumos@citchennai.net" className="hover:cursor-pointer text-white">Contact Us: +91 89256 50699 | lumos@citchennai.net</a>
+                    <p className="text-white poppins-text">For further queries:</p>
+                    <p className="text-white poppins-text">+91 89256 50699 (Ahmed Mustafa)</p>
+                    <p className="text-white poppins-text">+91 89397 59393 (Madhuvarshini)</p>
+                    <a href="mailto:lumos@citchennai.net" className="hover:cursor-pointer text-white">lumos@citchennai.net</a>
 
                     <div className="flex justify-between w-1/2 mt-3">
                         <a href="https://www.instagram.com/lumos_cit/">
