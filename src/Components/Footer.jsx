@@ -57,7 +57,7 @@ function Footer() {
                     </div>
                 </div>
                 {/* <hr className="border border-black" /> */}
-                <h1 className="text-center  bg-black-400  text-white">
+                <h1 className=" poppins-text text-center  bg-black-400  text-white">
                     LUMOS OFFICIAL 2023
                 </h1>
             </div>
