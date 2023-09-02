@@ -21,17 +21,15 @@
   font-family: Rage;
   src: url("./Fonts/RAGE.ttf");
 }
+
 .poppins-text {
   font-family : "Poppins";
- }
-
-
+}
 
 div {
     font-family: NukuNuku
-  }
+}
 
-  
 html::-webkit-scrollbar{
   display: none;
 }

@@ -13,7 +13,7 @@ const Registration = ({ registrationData }) => {
             </div>
 
             <div className='text-black px-2'>
-              <img className="w-full mb-2 p-3" src={item.imageurl} alt="Image" loading='lazy' />
+              <img className="w-full mb-2 p-3" src={item.imageurl} alt="generic" loading='lazy' />
               <p className="text-center mb-2 font-semibold text-2xl">{item.day}</p>
               <div className='flex justify-between px-4'>
                 <p className="poppins-text text-center mb-2 font-bold">Basic Plan</p>

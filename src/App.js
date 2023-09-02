@@ -1,8 +1,9 @@
 import { events } from './data/event'
 import { exhibits } from './data/exhibits';
 import { workshop } from './data/workshop';
-import { registration } from './data/registration'
-import { competitions } from './data/competitions'
+import { registration } from './data/registration';
+import { competitions } from './data/competitions';
+import { matrix } from './data/matrix';
 
 
 import './App.css';
@@ -11,6 +12,7 @@ import ExhibitCard from './Components/ExhibitCard';
 import Workshop from './Components/Workshop';
 import Registration from './Components/registration';
 import CompetitionCard from './Components/CompetitionCard';
+import RegistrationMatrix from './Components/RegistrationMatrix';
 
 import video from './video.mp4';
 import background from './background.jpeg';
@@ -18,7 +20,7 @@ import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#000" }}>
+    <div id="container">
       <div id="bg-vid" style={style.video_wrapper}>
         <video playsInline autoPlay muted loop poster={background} style={style.video}>
           <source src={video} type="video/mp4" />
@@ -51,6 +53,7 @@ function App() {
         <Workshop workshop={workshop} />
         <br></br>
         <p id="reg" className='text-6xl max-md:text-center max-md:text-4xl pl-[2rem] pt-[2rem]'>Registration</p>
+        <RegistrationMatrix matrix={matrix} />
         <div className='poppins-text text-white text-lg p-[2rem] '>All college, school students, CIT students and CIT Alumni are allowed to participate!</div>
         <Registration registrationData={registration} />
         <p id="competitions" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exclusive Participation</p>
@@ -219,5 +222,6 @@ const style = {
     }
   }
 };
+
 
 export default App;
