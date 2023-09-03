@@ -6,8 +6,8 @@ const Registration = ({ registrationData }) => {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {registrationData.map((item, index) => (
-          <div key={index} className="bg-white shadow-md m-2">
-            <div className="bg-red-500 p-4 text-white mb-3 text-center">
+          <div key={index} className="bg-white shadow-md m-2 rounded-lg">
+            <div className="bg-red-500 p-4 text-white mb-3 text-center rounded-t-lg">
 
               <h2 className="text-2xl font-bold">Registration</h2>
             </div>

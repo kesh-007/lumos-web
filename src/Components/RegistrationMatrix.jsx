@@ -19,7 +19,7 @@ const RegistrationMatrix = ({ matrix }) => {
             <div className='text-white text-xl py-4 xl:invisible xl:absolute'>General Plan</div>
             <div className='grid grid-cols-1 gap-4 m-0 lg:grid-cols-2 xl:grid-cols-3'>
               {matrix[0].map(name => (
-                <div className='poppins-text text-white text-xs md:text-sm lg:text-md border-2 border-yellow-400 flex justify-center text-center items-center rounded-lg p-2'>{name}</div>
+                <div className='poppins-text text-white text-xs md:text-sm lg:text-md border-2 border-yellow-400 flex justify-center text-center items-center rounded-lg p-2 hover:border-yellow-600'>{name}</div>
               ))}
             </div>
           </div>
@@ -27,7 +27,7 @@ const RegistrationMatrix = ({ matrix }) => {
             <div className='text-yellow-400 text-xl py-4 xl:invisible xl:absolute'>Premium Plan</div>
             <div className='grid grid-cols-1 gap-4 m-0 lg:grid-cols-2 xl:grid-cols-3'>
               {matrix[1].map(name => (
-                <div className='poppins-text text-white text-xs md:text-sm lg:text-md border-2 border-yellow-400 flex justify-center text-center items-center rounded-lg p-2'>{name}</div>
+                <div className='poppins-text text-white text-xs md:text-sm lg:text-md border-2 border-yellow-400 flex justify-center text-center items-center rounded-lg p-2 hover:border-yellow-600'>{name}</div>
               ))}
             </div>
           </div>
@@ -40,7 +40,7 @@ const RegistrationMatrix = ({ matrix }) => {
             <div className='text-white text-xl py-4 xl:invisible xl:absolute'>General Plan</div>
             <div className='grid grid-cols-1 gap-4 m-0 lg:grid-cols-2 xl:grid-cols-3'>
               {matrix[2].map(name => (
-                <div className='poppins-text text-white text-xs md:text-sm lg:text-md border-2 border-yellow-400 flex justify-center text-center items-center rounded-lg p-2'>{name}</div>
+                <div className='poppins-text text-white text-xs md:text-sm lg:text-md border-2 border-yellow-400 flex justify-center text-center items-center rounded-lg p-2 hover:border-yellow-600'>{name}</div>
               ))}
             </div>
           </div>
@@ -48,7 +48,7 @@ const RegistrationMatrix = ({ matrix }) => {
             <div className='text-yellow-400 text-xl py-4 xl:invisible xl:absolute'>Premium Plan</div>
             <div className='grid grid-cols-1 gap-4 m-0 lg:grid-cols-2 xl:grid-cols-3'>
               {matrix[3].map(name => (
-                <div className='poppins-text text-white text-xs md:text-sm lg:text-md border-2 border-yellow-400 flex justify-center text-center items-center rounded-lg p-2'>{name}</div>
+                <div className='poppins-text text-white text-xs md:text-sm lg:text-md border-2 border-yellow-400 flex justify-center text-center items-center rounded-lg p-2 hover:border-yellow-600'>{name}</div>
               ))}
             </div>
           </div>

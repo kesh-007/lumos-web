@@ -24,10 +24,12 @@
 
 .poppins-text {
   font-family : "Poppins";
+  letter-spacing: 0em;
 }
 
 div {
-    font-family: NukuNuku
+    font-family: NukuNuku;
+    letter-spacing: 0.03em;
 }
 
 html::-webkit-scrollbar{

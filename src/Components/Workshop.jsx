@@ -12,7 +12,7 @@ const WorkshopCard = ({ imageurl, name, descp, isImageOnLeft, Premium, day }) =>
       ${isImageOnLeft ? 'flex-row' : 'flex-row-reverse'}`}>
       <div className='w-[70%] max-md:w-full'>
         <div className='h-fit relative'>
-          <img src={imageurl} alt='workshop poster' className='w-full' loading='lazy' />
+          <img src={imageurl} alt='workshop poster' className='w-full rounded-t-lg lg:rounded-none' loading='lazy' />
           <div className='poppins-text absolute bottom-4 right-8 bg-white text-black rounded-full text-md p-2 backdrop-filter backdrop-blur-lg bg-opacity-30'>Day {day}</div>
         </div>
       </div>

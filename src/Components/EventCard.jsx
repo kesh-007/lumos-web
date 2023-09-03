@@ -11,7 +11,7 @@ function EventCard({ data }) {
         <div data-aos="zoom-in" className={`h-auto md:h-[100%] xl:h-[90%] w-auto mb-[3rem] rounded-full ${index === 9 ? ' ' : ''}`}>
           <div style={{ height: "60%" }}>
             <div className='h-fit relative'>
-              <img src={datum.image} className='w-[100%]' alt={datum.event_name} loading="lazy" />
+              <img src={datum.image} className='w-[100%] rounded-t-lg' alt={datum.event_name} loading="lazy" />
               <div className='poppins-text absolute bottom-4 right-8 bg-white text-black rounded-full text-md p-2 backdrop-filter backdrop-blur-lg bg-opacity-30'>Day {datum.day}</div>
             </div>
 
