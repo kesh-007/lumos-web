@@ -3,8 +3,9 @@ export const matrix = [
     "Canvas Painting - Strokes of HnM",
     "Akhihabara no Quest - A Japanese X Anime quiz",
     "O-Talku Zone! - Talk and Interact Area",
-    "Hanetsuki",
     "Obstacle Course - Nihon Ninja Run",
+    "Hanetsuki",
+
   ],
   [
     "Watch Party",
