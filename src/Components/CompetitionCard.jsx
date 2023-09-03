@@ -23,7 +23,7 @@ const CompetitionCard = ({ competitions }) => {
                   <div className='flex flex-col gap-3'>
                     <div className='flex justify-between'>
                       <p className='poppins-text font-semibold'>{index.val}</p>
-                      <a href={`${index.url}`} className='  bg-red-500 text-white px-8 rounded-xl shadow-lg hover:bg-red-400'>
+                      <a href={`${index.url}`} className='  bg-red-500 text-white px-8 h-fit rounded-xl shadow-lg hover:bg-red-400'>
                         REGISTER
                       </a>
                     </div>

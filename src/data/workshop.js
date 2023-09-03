@@ -21,9 +21,9 @@ export const workshop = [
         day: "1",
     },
     {
-        imageurl: process.env.PUBLIC_URL + "/img/cosplayws_web.png",
-        name: 'COSPLAY WORKSHOP',
-        descp: "Unveil the craftsmanship involved in crafting breathtaking cosplay ensembles and set free your inner anime persona. Participate in an engaging Cosplay Making Workshop that pushes the boundaries of imagination. Immerse yourself in the enthralling universe of anime, and under expert mentorship, acquire the skills to construct extraordinary outfits that give tangible form to your cherished personas. Embrace the excitement of stepping into the shoes of your beloved protagonists, and watch your artistic capabilities take flight as we delve into the mesmerizing domain of cosplay",
+        imageurl: process.env.PUBLIC_URL + "/img/kendo.png",
+        name: 'KENDO WORKSHOP',
+        descp: "Dive into the captivating world of Kendo at Hikari no Matsuri! Guided by experts from Madras Kendo Club, embrace precision and unwavering focus with the bamboo sword. Master the ancient art of the warrior—one strike at a time. Experience Kendo like never before, where tradition meets modernity, and let your spirit shine! Join us and ignite your passion for martial arts.",
         Premium: true,
         day: "2",
     },

@@ -23,6 +23,6 @@ export const matrix = [
   [
     "Otaku Onstage! A Cosplay Carnival",
     "Digital Art Workshop",
-    "Cosplay Workshop",
+    "Kendo Workshop",
   ],
 ];
