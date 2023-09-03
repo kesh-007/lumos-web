@@ -18,6 +18,7 @@ export const matrix = [
     "Obstacle Course - Nihon Ninja Run",
     "Musical Performance - Notes of Nippon",
     "Artist Alley",
+    "Fly High - A Volleyball Showdown"
   ],
   [
     "Otaku Onstage! A Cosplay Carnival",
