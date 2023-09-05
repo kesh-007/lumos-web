@@ -66,7 +66,7 @@ export const events = [
     {
         event_name: "Watch Party",
         event_decp: "In the  modern entertainment industry, anime has emerged as a powerful global phenomenon. India, too, has witnessed a surge in anime appreciation, with  anime movies now gracing local theaters. This event’s objective is to celebrate this cultural wave with an anime watch party, where enthusiasts can enjoy iconic movies and episodes on the big screen.",
-        image: process.env.PUBLIC_URL + "/img/12.png",
+        image: process.env.PUBLIC_URL + "/img/watchparty.png",
         Premium: true,
         register: false,
         day: "1",

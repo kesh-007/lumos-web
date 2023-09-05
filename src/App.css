@@ -38,4 +38,5 @@ html::-webkit-scrollbar{
 
 html,body {
   overflow-x: none;
+  scroll-behavior: smooth;
 }

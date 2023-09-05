@@ -29,7 +29,7 @@ function EventCard({ data }) {
                 datum.register &&
                 <div className='content-center m-auto items-center'>
                   <br></br>
-                  <a href="#competitions" className='poppins-text bg-transparent hover:bg-red-700 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-700 hover:border-transparent rounded-lg text-md content-center'>
+                  <a href="#competitions" className='poppins-text bg-transparent hover:bg-red-700 active:bg-red-500 text-red-500 font-semibold hover:text-white py-2 px-4 border border-red-700 hover:border-transparent rounded-lg text-sm content-center'>
                     Register
                   </a>
                 </div>
