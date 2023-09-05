@@ -8,7 +8,7 @@ function EventCard({ data }) {
   return (
     <div className='grid grid-cols-1 gap-[3rem] text-white sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 items-start'>
       {data.map((datum, index) => (
-        <div data-aos="zoom-in" className={`h-auto md:h-[100%] xl:h-[90%] w-auto mb-[3rem] rounded-full ${index === 9 ? ' ' : ''}`}>
+        <div data-aos="zoom-in" data-aos-delay={50 * index} className={`h-auto md:h-[100%] xl:h-[90%] w-auto mb-[3rem] rounded-full ${index === 9 ? ' ' : ''}`}>
           <div style={{ height: "60%" }}>
             <div className='h-fit relative'>
               <img src={datum.image} className='w-[100%] rounded-t-lg' alt={datum.event_name} loading="lazy" />
