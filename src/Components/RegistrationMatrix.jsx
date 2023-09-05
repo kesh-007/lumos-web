@@ -15,7 +15,7 @@ const RegistrationMatrix = ({ matrix }) => {
         {/* Day 1 Column */}
         <div className='grid gap-4 col-span-2 flex flex-row'>
           <div className='poppins-text text-white bg-red-700 text-2xl p-4 h-fit row-span-1'>DAY 1</div>
-          <div className='row-span-4 h-fit bg-neutral-900 p-4 xl:p-8 lg:h-[20rem]'>
+          <div className='row-span-4 h-fit bg-neutral-900 p-4 xl:p-8 lg:h-[25rem] 2lg:h-[22rem] xl:h-[20rem]'>
             <div className='text-white text-xl py-4 xl:invisible xl:absolute'>General Plan</div>
             <div className='grid grid-cols-1 gap-4 m-0 lg:grid-cols-2 xl:grid-cols-3'>
               {matrix[0].map(name => (
@@ -23,7 +23,7 @@ const RegistrationMatrix = ({ matrix }) => {
               ))}
             </div>
           </div>
-          <div className='row-span-4 h-[20rem] bg-neutral-900 p-4 xl:p-8'>
+          <div className='row-span-4 h-[25rem] xl:h-[20rem] bg-neutral-900 p-4 xl:p-8'>
             <div className='text-yellow-400 text-xl py-4 xl:invisible xl:absolute'>Premium Plan</div>
             <div className='grid grid-cols-1 gap-4 m-0 lg:grid-cols-2 xl:grid-cols-3'>
               {matrix[1].map(name => (
@@ -36,7 +36,7 @@ const RegistrationMatrix = ({ matrix }) => {
         {/* Day 2 Column */}
         <div className='grid gap-4 col-span-2 flex flex-row'>
           <div className='poppins-text text-white bg-red-700 text-2xl p-4 h-fit row-span-1'>DAY 2</div>
-          <div className='row-span-4 h-fit bg-neutral-900 p-4 xl:p-8 lg:h-[20rem]'>
+          <div className='row-span-4 h-fit md:h-[25rem] 2lg:h-[22rem] xl:h-[20rem] bg-neutral-900 p-4 xl:p-8'>
             <div className='text-white text-xl py-4 xl:invisible xl:absolute'>General Plan</div>
             <div className='grid grid-cols-1 gap-4 m-0 lg:grid-cols-2 xl:grid-cols-3'>
               {matrix[2].map(name => (
@@ -44,7 +44,7 @@ const RegistrationMatrix = ({ matrix }) => {
               ))}
             </div>
           </div>
-          <div className='row-span-4 h-[20rem] bg-neutral-900 p-4 xl:p-8'>
+          <div className='row-span-4 h-[25rem] xl:h-[20rem] bg-neutral-900 p-4 xl:p-8'>
             <div className='text-yellow-400 text-xl py-4 xl:invisible xl:absolute'>Premium Plan</div>
             <div className='grid grid-cols-1 gap-4 m-0 lg:grid-cols-2 xl:grid-cols-3'>
               {matrix[3].map(name => (

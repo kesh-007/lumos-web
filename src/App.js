@@ -28,15 +28,19 @@ function App() {
         </video>
       </div>
       <div style={style.header}>
-        <h4 style={style.lumos}>LUMOS</h4>
-        <h5 style={{ ...style.lumos, ...style.cursive }}>presents</h5>
-        <div style={style.title}>
-          <h1 style={style.nuku}>HIKARI <span style={style.red}>NO</span> MATSURI</h1>
-          <h2 style={style.rage}>F e s t i v a l &nbsp; o f &nbsp; l i g h t s</h2>
-          <h2 style={style.text}>An exclusive Japanese x Anime event</h2>
-          <p style={style.text} id="demo">8th and 9th September</p>
-          <br></br>
-          <a href="#reg"><button className='bg-[#FF0000] hover:bg-red-500 text-white font-bold py-2 px-4 rounded justify-center'>Register Now</button></a>
+        <h4 style={style.lumos} className='absolute w-[100vw] text-center lg:left-[1em] lg:w-fit'>LUMOS</h4>
+        <h5 style={{ ...style.lumos, ...style.cursive }} className='absolute w-[100vw] lg:left-[5em] top-[3.5em] lg:w-fit'>presents</h5>
+        <div className="absolute top-[10em]" style={style.title}>
+          <div>
+            <h1 style={style.nuku}>HIKARI <span style={style.red}>NO</span> MATSURI</h1>
+            <h2 style={style.rage} className='lg:absolute w-screen lg:w-fit lg:left-[50%] text-3xl lg:text-4xl xl:text-5xl'>F e s t i v a l &nbsp; o f &nbsp; l i g h t s</h2>
+          </div>
+          <div className='lg:absolute top-[14em]'>
+            <h2 style={style.text} className=' w-screen top-[13em] text-md lg:text-lg xl:text-2xl'>An exclusive Japanese x Anime event</h2>
+            <p style={style.text} id="demo" className=' w-screen top-[15em] text-md lg:text-lg xl:text-2xl'>8th and 9th September</p>
+            <br></br>
+            <div className='w-screen h-8  items-center top-[20em]'><a href="#reg" className='h-fit w-fit'><button className='bg-[#FF0000] hover:bg-red-500 text-white font-bold py-2 px-4 rounded justify-center'>Register Now</button></a></div>
+          </div>
         </div>
 
       </div>
@@ -83,8 +87,8 @@ const style = {
     "color": "white",
     "fontSize": "65px",
     "textAlign": "center",
-    "width": "100vw",
-    "left": "0%",
+    // "width": "100vw",
+    // "left": "0%",
     "margin": "auto",
   },
   "nuku": {
@@ -97,21 +101,21 @@ const style = {
     "fontFamily": "Rage, cursive",
     "color": "white",
     "margin": "0",
-    "fontSize": "32px"
+    // "fontSize": "32px"
   },
   "cursive": {
     "fontFamily": "'Rouge Script'",
     "color": "white",
     "fontSize": "24px",
     "textAlign": "center",
-    "width": "100vw",
-    "left": "0%",
+    // "width": "100vw",
+    // "left": "0%",
     "margin": "auto",
   },
   "text": {
     "fontFamily": "'Comfortaa', cursive",
     "color": "#bbb",
-    "fontSize": "30px",
+    // "fontSize": "30px",
     "marginLeft": "0%"
   },
   "title": {
