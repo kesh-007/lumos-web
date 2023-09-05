@@ -58,7 +58,7 @@ export const events = [
     {
         event_name: "O-TALKU ZONE! - A TALK AND INTERACTION AREA",
         event_decp: "Immerse yourself in a vibrant world of Japan, Anime, and Manga as students from different colleges unite, forging friendships, and celebrating their shared passions in a designated active zone throughout the event. Participants could also use it as an opportunity to share books, stories, and artworks with fellow enthusiasts and exchange knowledge between them.",
-        image: process.env.PUBLIC_URL + "/img/2.png",
+        image: process.env.PUBLIC_URL + "/img/otalkuzone.png",
         Premium: false,
         register: false,
         day: "1 & 2",

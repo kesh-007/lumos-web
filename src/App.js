@@ -14,7 +14,7 @@ import Registration from './Components/registration';
 import CompetitionCard from './Components/CompetitionCard';
 import RegistrationMatrix from './Components/RegistrationMatrix';
 
-import video from './video.mp4';
+import video from './anime.mp4';
 import background from './background.jpeg';
 import Footer from './Components/Footer';
 
@@ -43,20 +43,20 @@ function App() {
 
       <div className="p-5 lg:p-20 bg-black text-white overflow-hidden">
 
-        <p id="events" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>EVENTS</p>
+        <p id="events" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem] mt-2'>EVENTS</p>
         <EventCard data={events} />
         <br></br>
-        <p id="exhibits" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exhibits</p>
+        <p id="exhibits" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem] mt-8'>Exhibits</p>
         <ExhibitCard exhibits={exhibits} />
         <br></br>
-        <p id="workshops" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>WORKSHOPS</p>
+        <p id="workshops" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem] mt-8'>WORKSHOPS</p>
         <Workshop workshop={workshop} />
         <br></br>
-        <p id="reg" className='text-6xl max-md:text-center max-md:text-4xl pl-[2rem] pt-[2rem]'>Registration</p>
+        <p id="reg" className='text-6xl max-md:text-center max-md:text-4xl pl-[2rem] pt-[2rem] my-4'>Registration</p>
         <RegistrationMatrix matrix={matrix} />
-        <div className='poppins-text text-white text-lg p-[2rem] '>All college, school students, CIT students and CIT Alumni are allowed to participate!</div>
+        <div className='poppins-text text-white text-lg p-[2rem] text-center'>All college, school students, CIT students and CIT Alumni are allowed to participate!</div>
         <Registration registrationData={registration} />
-        <p id="competitions" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem]'>Exclusive Participation</p>
+        <p id="competitions" className='text-6xl max-md:text-center max-md:text-4xl p-[2rem] mt-8'>Exclusive Participation</p>
         <CompetitionCard competitions={competitions} />
         <br></br>
         <Footer />
