@@ -7,27 +7,27 @@ const RegistrationMatrix = ({ matrix }) => {
       <div className='grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 gap-4 mx-8'>
         {/* Plan Column */}
         <div className='grid gap-4 invisible absolute xl:visible xl:relative'>
-          <div className='poppins-text text-white bg-red-700 text-2xl p-4 h-fit'>PLAN</div>
+          <div className='poppins-text text-gray bg-red-700 text-2xl p-4 h-fit'>PLAN</div>
           <img src={process.env.PUBLIC_URL + "/img/general.png"} alt='general' className='w-[30rem] h-[20rem] object-cover' />
           <img src={process.env.PUBLIC_URL + "/img/premium.png"} alt='general' className='w-[30rem] h-[20rem] object-cover' />
         </div>
 
         {/* Day 1 Column */}
         <div className='grid gap-4 col-span-2 flex flex-row'>
-          <div className='poppins-text text-white bg-red-700 text-2xl p-4 h-fit row-span-1'>DAY 1</div>
-          <div className='row-span-4 h-fit bg-neutral-900 p-4 xl:p-8 lg:h-[25rem] 2lg:h-[22rem] xl:h-[20rem]'>
+          <div className='poppins-text text-white bg-red-500 text-2xl p-4 h-fit row-span-1'>DAY 1 (Concluded!)</div>
+          <div className='row-span-4 h-fit bg-neutral-600 p-4 xl:p-8 lg:h-[25rem] 2lg:h-[22rem] xl:h-[20rem]'>
             <div className='text-white text-xl py-4 xl:invisible xl:absolute'>General Plan</div>
             <div className='grid grid-cols-1 gap-4 m-0 lg:grid-cols-2 xl:grid-cols-3'>
               {matrix[0].map(name => (
-                <div className='poppins-text text-white text-xs md:text-sm lg:text-md border-2 border-yellow-400 flex justify-center text-center items-center rounded-lg p-2 hover:border-yellow-600'>{name}</div>
+                <div className='poppins-text text-gray text-xs md:text-sm lg:text-md border-2 border-neutral-400 flex justify-center text-center items-center rounded-lg p-2'>{name}</div>
               ))}
             </div>
           </div>
-          <div className='row-span-4 h-[25rem] xl:h-[20rem] bg-neutral-900 p-4 xl:p-8'>
-            <div className='text-yellow-400 text-xl py-4 xl:invisible xl:absolute'>Premium Plan</div>
+          <div className='row-span-4 h-[25rem] xl:h-[20rem] bg-neutral-600 p-4 xl:p-8'>
+            <div className='text-slate-400 text-xl py-4 xl:invisible xl:absolute'>Premium Plan</div>
             <div className='grid grid-cols-1 gap-4 m-0 lg:grid-cols-2 xl:grid-cols-3'>
               {matrix[1].map(name => (
-                <div className='poppins-text text-white text-xs md:text-sm lg:text-md border-2 border-yellow-400 flex justify-center text-center items-center rounded-lg p-2 hover:border-yellow-600'>{name}</div>
+                <div className='poppins-text text-gray text-xs md:text-sm lg:text-md border-2 border-neutral-400 flex justify-center text-center items-center rounded-lg p-2'>{name}</div>
               ))}
             </div>
           </div>

@@ -21,7 +21,7 @@ export const events = [
         image: process.env.PUBLIC_URL + "/img/hanetsuki_web.png",
         Premium: false,
         register: false,
-        day: "1",
+        day: "1 & 2",
     },
     {
         event_name: "Obstacle Course",
@@ -43,8 +43,8 @@ export const events = [
         event_name: "OTAKU ONSTAGE! A COSPLAY CARNIVAL",
         event_decp: "Cosplaying has evolved into an art form, enabling individuals to embody their beloved characters. This event invites all to don the attire of any Japanese character, showcasing their craftsmanship and indulging in the immersive experience. With prominent Indian cosplayers joining in, it's a platform to celebrate creativity and shared admiration for Japanese culture.",
         image: process.env.PUBLIC_URL + "/img/cosplayshowcase_web.png",
-        Premium: false,
-        register: true,
+        Premium: true,
+        register: false,
         day: "2",
     },
     {
@@ -65,15 +65,15 @@ export const events = [
     },
     {
         event_name: "Watch Party",
-        event_decp: "In the  modern entertainment industry, anime has emerged as a powerful global phenomenon. India, too, has witnessed a surge in anime appreciation, with  anime movies now gracing local theaters. This event’s objective is to celebrate this cultural wave with an anime watch party, where enthusiasts can enjoy iconic movies and episodes on the big screen.",
+        event_decp: "In the  modern entertainment industry, anime has emerged as a powerful global phenomenon. India, too, has witnessed a surge in anime appreciation, with  anime movies now gracing local theaters. This event's objective is to celebrate this cultural wave with an anime watch party, where enthusiasts can enjoy iconic movies and episodes on the big screen.",
         image: process.env.PUBLIC_URL + "/img/watchparty.png",
         Premium: true,
         register: false,
-        day: "1",
+        day: "1 & 2",
     },
     {
         event_name: "FLY HIGH - A VOLLEYBALL SHOWDOWN",
-        event_decp: "An anime-themed volleyball event with the popular volleyball anime,Haikyuu as its theme! This volleyball event is for volleyball fans and anime enthusiasts alike. Electrifying fusion of sports and anime - an awe-inspiring spectacle featuring volleyball action.",
+        event_decp: "An anime-themed volleyball event with the popular volleyball anime, Haikyuu as its theme! This volleyball event is for volleyball fans and anime enthusiasts alike. Electrifying fusion of sports and anime - an awe-inspiring spectacle featuring volleyball action.",
         image: process.env.PUBLIC_URL + "/img/volleyball_web.png",
         Premium: true,
         register: true,
